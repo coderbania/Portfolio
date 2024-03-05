@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import React from 'react'
 import Nav from './Components/Nav'
 import {Route,Routes } from 'react-router-dom'
 import Home from './Components/Home'
 import About from './Components/About'
+import Projects from './Components/Projects'
+import Resume from './Components/Resume'
 
 export const App = () => {
   
@@ -14,11 +14,13 @@ export const App = () => {
 
     <>
       <Nav></Nav>
-     <hr />
+     
       <Routes>
          <Route path='/' element={<Home/>} /> 
         
          <Route path='/about' element={<About></About>} ></Route>
+         <Route path='/projects' element={<Projects></Projects>}>  </Route>
+         <Route path='/resume' element={<Resume></Resume>}> </Route>
       </Routes>
     </>
 

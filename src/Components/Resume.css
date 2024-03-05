@@ -1,0 +1,15 @@
+.resume{
+/* position: relative; */
+/* height: 50% ; */
+display: flex ;
+justify-content: center;
+background: #000;
+
+}
+.resume img{
+    position: relative;
+    /* height: 50%; */
+    /* width: 50%; */
+    top: 40px;
+/* height: 10%; */
+}

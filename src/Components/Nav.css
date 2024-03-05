@@ -1,7 +1,21 @@
 .nav{
-    padding: 15px 25px;
+    padding: 10px 15px;
     display: flex;
+    align-items: center;
     justify-content:space-around;
+    background: linear-gradient(blue , rgb(76, 104, 122)) ;
+}
+.logo{
+    position: relative;
+    height: 50px;
+    color: rgb(9, 209, 76);
+}
+.logo img{
+    height: 100%;
+    border-radius: 50%;
+    /* display: flex; */
+    /* object-fit: cover; */
+
 }
 .links{
     display: flex;
@@ -9,6 +23,8 @@
     gap: 50px;
 
 }
-a{
+.a{
     text-decoration: none;
+    color: #f7efef;
+    font-weight: 500;
 }
